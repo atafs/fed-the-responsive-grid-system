@@ -1,0 +1,95 @@
+/* ------------------------------------------ */
+/* DEV */
+/* ------------------------------------------ */
+/* CALL THE MIXIN */
+html {
+  background: linear-gradient(-10deg, #772953, #e95420);
+  height: 100vh; }
+
+.dev, .dev > * {
+  color: #fff;
+  border: 1px transparent #fff;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 7px;
+  margin: 7px; }
+
+.dev > div:hover {
+  background-color: rgba(255, 255, 255, 0.35); }
+
+/* ------------------------------------------ */
+/* RULES */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* VARIABLES */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* SETUP */
+/* ------------------------------------------ */
+html {
+  color: #000;
+  font-family: 'DIN Condensed', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility; }
+
+/* ------------------------------------------ */
+/* GRID */
+/* ------------------------------------------ */
+.row {
+  max-width: 1075px;
+  margin: 0 auto; }
+
+/* ------------------------------------------ */
+/* REUSABLE COMPONENTS */
+/* ------------------------------------------ */
+/* ------------HEADERS-------------*/
+h1, p {
+  margin: 0;
+  color: #000;
+  font-size: 70%;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px; }
+
+img {
+  height: 100%;
+  width: 100%; }
+
+/* ------------BUTTONS-------------*/
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  transition: background-color 0.3s, border 0.3s, color 0.3s; }
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+  color: #fff;
+  margin-right: 15px;
+  border-radius: 200px; }
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid #e67e22;
+  color: #e67e22; }
+
+.btn:hover,
+.btn:active {
+  background-color: #cf6d17; }
+
+.btn-full:hover,
+.btn-full:active {
+  border: 1px solid #cf6d17; }
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 1px solid #cf6d17;
+  color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
